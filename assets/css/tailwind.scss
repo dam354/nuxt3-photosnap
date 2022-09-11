@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "utilities.scss";
+
+body {
+  background-color: $bg-light;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.bgLight {
+  background-color: $bg-light;
+}
+.subTitle {
+  @apply text-center text-3xl font-bold text-gray-800 lg:text-4xl;
+}
